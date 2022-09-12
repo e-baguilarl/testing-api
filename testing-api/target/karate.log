@@ -1,0 +1,120 @@
+16:08:32.447 [main] ERROR com.intuit.karate - classpath:test.feature:20
+When requestBody
+no step-definition method match found for: requestBody
+classpath:test.feature:20
+16:11:51.641 [main] DEBUG com.intuit.karate - request:
+1 > POST https://postman-echo.com/post
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: postman-echo.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16)
+1 > Accept-Encoding: gzip,deflate
+{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https:\/\/postman-echo.com\/post"}
+
+16:11:52.464 [main] DEBUG com.intuit.karate - response time in milliseconds: 805
+1 < 200
+1 < Date: Mon, 12 Sep 2022 21:11:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 573
+1 < Connection: keep-alive
+1 < ETag: W/"23d-HR69aUOZXSc//t4AlZ/foY2ZSio"
+1 < Vary: Accept-Encoding
+1 < Set-Cookie: sails.sid=s%3Ami89YOFOC9Hkx2NG545rIy-PGww-WrXh.XI8xEX6nTPhc8g9Us0LebLfall42%2B4VMpHAgnfa9krg; Domain=postman-echo.com
+{"args":{},"data":{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https://postman-echo.com/post"},"files":{},"form":{},"headers":{"x-forwarded-proto":"https","x-forwarded-port":"443","host":"postman-echo.com","x-amzn-trace-id":"Root=1-631fa098-4a96b03a500de98a6c359e6b","content-length":"91","content-type":"application/json; charset=UTF-8","user-agent":"Apache-HttpClient/4.5.13 (Java/11.0.16)","accept-encoding":"gzip,deflate"},"json":{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https://postman-echo.com/post"},"url":"https://postman-echo.com/post"}
+
+16:11:52.551 [main] ERROR com.intuit.karate - classpath:test.feature:13
+* print 'nombre: ' + nombre
+js failed:
+>>>>
+01: karate.log('[print]','nombre: ' + nombre)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "nombre" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:test.feature:13
+16:12:31.034 [main] DEBUG com.intuit.karate - request:
+1 > POST https://postman-echo.com/post
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: postman-echo.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16)
+1 > Accept-Encoding: gzip,deflate
+{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https:\/\/postman-echo.com\/post"}
+
+16:12:31.672 [main] DEBUG com.intuit.karate - response time in milliseconds: 608
+1 < 200
+1 < Date: Mon, 12 Sep 2022 21:12:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 573
+1 < Connection: keep-alive
+1 < ETag: W/"23d-N0Vnk7GwHgRtEqK9SGzuUy1kVRA"
+1 < Vary: Accept-Encoding
+1 < Set-Cookie: sails.sid=s%3AzXmVRmrWxfzO0xIVaIo3wvmVNQZB5NsB.JQCJ4e0LDJneUKwrGexi8qoAZT8ctC0u05iAj%2BaLCRg; Domain=postman-echo.com
+{"args":{},"data":{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https://postman-echo.com/post"},"files":{},"form":{},"headers":{"x-forwarded-proto":"https","x-forwarded-port":"443","host":"postman-echo.com","x-amzn-trace-id":"Root=1-631fa0bf-581b4af403d28dbe0ad3a612","content-length":"91","content-type":"application/json; charset=UTF-8","user-agent":"Apache-HttpClient/4.5.13 (Java/11.0.16)","accept-encoding":"gzip,deflate"},"json":{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https://postman-echo.com/post"},"url":"https://postman-echo.com/post"}
+
+16:12:31.788 [main] ERROR com.intuit.karate - classpath:test.feature:13
+* print 'nombre: ' + nombre
+js failed:
+>>>>
+01: karate.log('[print]','nombre: ' + nombre)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "nombre" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:test.feature:13
+16:14:10.147 [main] DEBUG com.intuit.karate - request:
+1 > POST https://postman-echo.com/post
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: postman-echo.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16)
+1 > Accept-Encoding: gzip,deflate
+{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https:\/\/postman-echo.com\/post"}
+
+16:14:10.780 [main] DEBUG com.intuit.karate - response time in milliseconds: 617
+1 < 200
+1 < Date: Mon, 12 Sep 2022 21:14:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 573
+1 < Connection: keep-alive
+1 < ETag: W/"23d-unnbpoB7gz8Vl7SRV4to4Ta30zc"
+1 < Vary: Accept-Encoding
+1 < Set-Cookie: sails.sid=s%3AzCNE0_7A1eK8T0-BFlGZRTiVbvrNeuOo.YYrcsS0h%2BIB%2B8KujDouokdr%2BUDcXYEuf1LWRci7637E; Domain=postman-echo.com
+{"args":{},"data":{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https://postman-echo.com/post"},"files":{},"form":{},"headers":{"x-forwarded-proto":"https","x-forwarded-port":"443","host":"postman-echo.com","x-amzn-trace-id":"Root=1-631fa122-49b93fb171d652f47c6ed93a","content-length":"91","content-type":"application/json; charset=UTF-8","user-agent":"Apache-HttpClient/4.5.13 (Java/11.0.16)","accept-encoding":"gzip,deflate"},"json":{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https://postman-echo.com/post"},"url":"https://postman-echo.com/post"}
+
+16:14:10.936 [main] INFO  com.intuit.karate - [print] nombre: Brenda 
+16:14:10.942 [main] INFO  com.intuit.karate - [print] apellido: Aguilar 
+16:14:10.957 [main] INFO  com.intuit.karate - [print] telefono: undefined 
+16:14:10.959 [main] INFO  com.intuit.karate - [print] correo: undefined 
+16:14:10.961 [main] INFO  com.intuit.karate - [print] usuario: undefined 
+16:14:10.964 [main] INFO  com.intuit.karate - [print] edad: 22 
+16:15:02.640 [main] DEBUG com.intuit.karate - request:
+1 > POST https://postman-echo.com/post
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: postman-echo.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16)
+1 > Accept-Encoding: gzip,deflate
+{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https:\/\/postman-echo.com\/post"}
+
+16:15:03.233 [main] DEBUG com.intuit.karate - response time in milliseconds: 577
+1 < 200
+1 < Date: Mon, 12 Sep 2022 21:15:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 573
+1 < Connection: keep-alive
+1 < ETag: W/"23d-st5DYml0d30m+tqh7gx6Z74ySRM"
+1 < Vary: Accept-Encoding
+1 < Set-Cookie: sails.sid=s%3AdPuH_7oOxAUQr3ZvgAZYLdgjHkMYt5Eo.xElPEfd%2FZ1%2BdhFqfG2iDjwNsJj2PzF19UIv28RbQUms; Domain=postman-echo.com
+{"args":{},"data":{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https://postman-echo.com/post"},"files":{},"form":{},"headers":{"x-forwarded-proto":"https","x-forwarded-port":"443","host":"postman-echo.com","x-amzn-trace-id":"Root=1-631fa157-539984fd7024355e5e174f43","content-length":"91","content-type":"application/json; charset=UTF-8","user-agent":"Apache-HttpClient/4.5.13 (Java/11.0.16)","accept-encoding":"gzip,deflate"},"json":{"nombre":"Brenda","apellido":"Aguilar","edad":22,"url":"https://postman-echo.com/post"},"url":"https://postman-echo.com/post"}
+
+16:15:03.369 [main] INFO  com.intuit.karate - [print] nombre: Brenda 
+16:15:03.375 [main] INFO  com.intuit.karate - [print] apellido: Aguilar 
+16:15:03.388 [main] INFO  com.intuit.karate - [print] telefono: undefined 
+16:15:03.390 [main] INFO  com.intuit.karate - [print] correo: undefined 
+16:15:03.392 [main] INFO  com.intuit.karate - [print] usuario: undefined 
+16:15:03.396 [main] INFO  com.intuit.karate - [print] edad: 22 
